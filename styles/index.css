@@ -55,3 +55,16 @@ h2 {
     text-align: center;
     padding: 5px;
   }
+/*
+footer para o Copyrigth
+*/
+footer {
+  color: #141313; /* Cor do texto no rodapé */
+  padding: 1px; /* Espaçamento interno do rodapé */
+  text-align: left; /* Alinhar o texto à esquerda no rodapé */
+  position: fixed; /* Fixar o rodapé na parte inferior da janela */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Largura total */
+  background-color: #f0f0f0; /* Cor de fundo do rodapé */
+}
