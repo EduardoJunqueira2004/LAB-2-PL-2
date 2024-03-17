@@ -50,6 +50,13 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+tr.table-primary {
+  background-color: #eaecef !important;
+  border-collapse: collapse;
+  /*centra a tabela*/
+  margin-left: auto;
+  margin-right: auto;
+}
 h2 {
     color: white;
     text-align: center;

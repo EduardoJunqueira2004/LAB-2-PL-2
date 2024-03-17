@@ -52,55 +52,89 @@
   <table class="table">
     <thead>
       <tr>
-        <th>Task</th>
-        <th>Date</th>
-        <th>State</th>
+        <th>
+          <!-- Dropdown button na coluna "Tasks" -->
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Task
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ordem de Criação</a></li>
+              <li><a class="dropdown-item" href="#">Ordem alfabética</a></li>
+              <li><a class="dropdown-item" href="#">----</a></li>
+              <li><a class="dropdown-item-text" href="#">-----</a></li>
+              <li><span class="dropdown-item-text">----</span></li>
+            </ul>
+          </div>
+          <!-- Fim do Dropdown button na coluna "Tasks" -->
+        </th>
+        <th>
+          <!-- Dropdown button na coluna "Date" -->
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Date
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+              <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+              <li><span class="dropdown-item-text">Just Text</span></li>
+            </ul>
+          </div>
+          <!-- Fim do Dropdown button na coluna "Date" -->
+        </th>
+        <th>
+          <!-- Dropdown button na coluna "State" -->
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              State
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+              <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+              <li><span class="dropdown-item-text">Just Text</span></li>
+            </ul>
+          </div>
+          <!-- Fim do Dropdown button na coluna "State" -->
+        </th>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="table-primary">
         <td>Fazer o lab 1 de PW</td>
         <td>14-03-2024</td>
         <td>confirmação butão</td>
-      </tr>      
-      <tr class="table-primary">
+      </tr>
+      <tr>    
         <td>Fazer o Lab 2 de PW</td>
         <td>27-03-2024</td>
         <td>confirmação butão</td>
       </tr>
-      <tr class="table-success">
-        <td>Success</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr class="table-danger">
-        <td>Danger</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr class="table-info">
-        <td>Info</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-      <tr class="table-warning">
-        <td>Warning</td>
-        <td>Refs</td>
-        <td>bo@example.com</td>
-      </tr>
-      <tr class="table-active">
-        <td>Active</td>
-        <td>Activeson</td>
-        <td>act@example.com</td>
-      </tr>
-      <tr class="table-secondary">
-        <td>Secondary</td>
-        <td>Secondson</td>
-        <td>sec@example.com</td>
+      <tr>
+        <td colspan="3">
+          <!-- Dropdown button para toda a tabela -->
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+              <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+              <li><span class="dropdown-item-text">Just Text</span></li>
+            </ul>
+          </div>
+          <!-- Fim do Dropdown button para toda a tabela -->
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
+<!-- Fim da tabela das minhas tarefas -->
 <footer>
   <p>Copryght 2024 All rigths reserved by Eduardo Miguel Moreira Junqueira nº30241 ERSC 2 year IPVC-ESTG                                                                                                                                                                                      </p>
 </footer>  
