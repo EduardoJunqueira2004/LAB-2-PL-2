@@ -23,25 +23,17 @@
             <img src="images/IMG-20230706-WA0001PerfilMac.jpeg" width="250" title="Profile Picture">
           </div>
       <!-- Olá Eduardo -->
-          <div class="col-md-3" >
+          <div class="col-md-5" >
               <div class="row">
-              <h1>  <br><br>Hello Eduardo!<br><br>  </h1>
+              <h1>  <br><br>Welcome back, Eduardo! 👋<br><br>  </h1>
               </div>
               </div>
-          <!-- Imoji -->
-          <div class="col-md-2">
-                  <div class="row">
-                  <br>
-            <img  src="images/Emoji Ola.avif" width:10 title="Imoji Picture">
-                  </div>
-                  </div>
           <!-- Botão Gerir Perfil -->
                 <div class="col-md-2" width:10>
                 <div class="row">
                   <br>
                   <br>
-                  <input type="button" class="custom-button" value="Gerir perfil" onclick="window.location.href='perfil.html';">
-                  
+                  <input type="button" class="custom-button" value="Manage profile" onclick="window.location.href='perfil.html';">
                       </div>
                       </div>
           <!--Botão Terminar Sessão -->
@@ -49,38 +41,69 @@
                     <div class="row">
                       <br>
                       <br>            
-                      <input type="button"  class="custom-button" value="Terminar Sessão" onclick="window.location.href='terminar_sessão.html';">
+                      <input type="button"  class="custom-button" value="Log out" onclick="window.location.href='terminar_sessão.html';">
                       </div>
                     </div>
                     </div>
                   </div>
-                  
-                  <div class="container">
-                    <table class="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">Tarefa</th>
-                          <th scope="col">Data</th>
-                          <th scope="col">Estado</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Fazer o Lab 1 de PW</td>
-                          <td>14-03-2024</td>
-                          <td>Em andamento</td>
-                        </tr>
-                        <tr>
-                          <td>Fazer o Lab 2 de PW</td>
-                          <td>27-03-2024</td>
-                          <td>Pendente</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <footer>
-                    <p>Copryght 2024 All rigths reserved by Eduardo Miguel Moreira Junqueira nº30241 ERSC 2 year IPVC-ESTG                                                                                                                                                                                      </p>
-                </footer>
+<!-- Tabela das minhas tarefas -->
+<div class="container mt-3">
+  <h2>My tasks</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>Date</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fazer o lab 1 de PW</td>
+        <td>14-03-2024</td>
+        <td>confirmação butão</td>
+      </tr>      
+      <tr class="table-primary">
+        <td>Fazer o Lab 2 de PW</td>
+        <td>27-03-2024</td>
+        <td>confirmação butão</td>
+      </tr>
+      <tr class="table-success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="table-danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="table-info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="table-active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Secondary</td>
+        <td>Secondson</td>
+        <td>sec@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<footer>
+  <p>Copryght 2024 All rigths reserved by Eduardo Miguel Moreira Junqueira nº30241 ERSC 2 year IPVC-ESTG                                                                                                                                                                                      </p>
+</footer>  
 
 </body>
 </html>
