@@ -48,26 +48,90 @@
                   </div>
 <!-- Tabela das minhas tarefas -->
 <div class="container mt-3">
-  <h2>Small Table</h2>
-  <p>The .table-sm class makes the table smaller by cutting cell padding in half:</p>
+  <h2> <br><br>My Tasks </h2>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+      +New Task
+    </button>
+  
+  <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">New task</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="taskName" class="form-label">Description</label>
+          <input type="text" class="form-control" id="taskName">
+        </div>
+        <div class="mb-3">
+          <label for="taskDate" class="form-label">Fazer o Lab 1 de PW</label>
+          <input type="date" class="form-control" id="taskDate">
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add Task</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--   End of the modal -->
+<!--As minhas tarefas-->
   <table class="table table-bordered table-sm">
     <thead>
       <tr>
         <th>Task</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Date</th>
+        <th>State</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Date</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>Fazer o Lab 1 de PW</td>
+        <td>14-03-2024</td>
+        <td><input type="checkbox" id="terms" name="terms" value="terms">
+          <label for="terms"></label></td>
       </tr>
       <tr>
-        <td>State</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+        <td>Fazer o Lab 2 de PW</td>
+        <td>27-03-2024</td>
+        <td><input type="checkbox" id="terms1" name="terms" value="terms">
+          <label for="terms"></label></td>
+      </tr>
+      <tr>
+        <td>---</td>
+        <td>---</td>
+        <td><input type="checkbox" id="terms2" name="terms" value="terms">
+          <label for="terms"></label></td>
+      </tr>
+      <tr>
+        <td>---</td>
+        <td>---</td>
+        <td><input type="checkbox" id="terms3" name="terms" value="terms">
+          <label for="terms"></label></td>
+      </tr>
+      <tr>
+        <td>---</td>
+        <td>---</td>
+        <td><input type="checkbox" id="terms4" name="terms" value="terms">
+          <label for="terms"></label></td>
+      </tr>
+      <tr>
+        <td>---</td>
+        <td>---</td>
+        <td><input type="checkbox" id="terms5" name="terms" value="terms">
+          <label for="terms"></label></td>
       </tr>
     </tbody>
   </table>
