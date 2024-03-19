@@ -24,7 +24,7 @@ img {
   max-width: 165%; /* Garante que a imagem não ultrapasse a largura máxima do seu contêiner */
   max-height: 165%; /* Garante que a imagem não ultrapasse a altura máxima do seu contêiner */
 }
-.custom-button {
+.btn{
   padding: 10px 40px; /* Espaçamento interno */
   background-color: #f5f8f9; /* Cor de fundo azul */
   color: #080808; /* Cor do texto branco */
@@ -32,6 +32,7 @@ img {
   border-radius: 5px; /* Borda arredondada */
   cursor: pointer; /* Cursor de seta ao passar por cima */
   transition: background-color 0.3s, color 0.3s; /* Transição suave */
+  margin: 10px; /* Espaçamento externo */
 }
 
 h1 {
