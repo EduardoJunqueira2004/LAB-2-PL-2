@@ -8,38 +8,48 @@
   <link rel="stylesheet" href="styles/profile.css"> <!-- Importando o seu arquivo de estilo -->
 </head>
 <body>
-  <!-- Início do container que vai
-  conter o formulário -->
-  <br>
-  <br>
-  <a href="index.html" class="btn btn-success">Back</a>
-  <br>
-  <br>
-  <h2><br><br>Profile</h2>
 
-  <div class="container mt-3">
-    <div class="profile-container">
-      <br>
-      <br>
-      <div class="profile-content">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <a href="index.html" class="btn btn-success">Back</a>
+      </div>                       
+      <!-- Main Column -->
+      <div class="col-md-6">
+          <br><br>
+          <h1>Perfil</h1>
+         <!-- Nested Container -->
+         <div class="container">
+          <div class="row">
+              <!-- Profile Form -->
+              <div class="formulario bg-light">
+                  <!-- Profile Image -->
         <img src="images/IMG-20230706-WA0001PerfilMac.jpeg" class="center" width="250" title="Profile Picture">
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
+       <!--Form-->
+        <form action="#" method="post">        
             <label for="nome">Nome:</label>
             <input type="nome" class="form-control" id="nome" placeholder="Enter nome" name="nome">
-          </div>
           <div class="mb-3">
             <label for="pwd">Email:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
           </div>
+          <div class="d-flex justify-content-center align-items-center">
           <button type="submit" class="btn btn-primary">Backup</button>
+        </div>
         </form>
-      </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Empty Column -->
+<div class="col-md-3"></div>
+</div>
+</div>
+
       <footer>
         <p>Copryght 2024 All rigths reserved by Eduardo Miguel Moreira Junqueira nº30241 ERSC 2 year IPVC-ESTG</p>
       </footer>
-    </div>
-  </div>
   
 </body>
 </html>
