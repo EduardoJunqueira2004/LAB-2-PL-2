@@ -1,7 +1,16 @@
-img {
-    max-width: 165%; /* Garante que a imagem não ultrapasse a largura máxima do seu contêiner */
-    max-height: 165%; /* Garante que a imagem não ultrapasse a altura máxima do seu contêiner */
-  }
+.profile-container {
+  background-color: #cccccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+.profile-content {
+  margin-top: 20px;
+}
+
+.center{display:block;
+        margin-left:auto;
+        margin-right:auto;}
+  
   .custom-button {
     padding: 10px 40px; /* Espaçamento interno */
     background-color: #f5f8f9; /* Cor de fundo azul */
@@ -33,7 +42,7 @@ img {
       text-align: center;
       padding: 5px;
     }
-    /*
+  /*
 footer para o Copyrigth
 */
 footer {
@@ -46,4 +55,3 @@ footer {
   width: 100%; /* Largura total */
   background-color: #f0f0f0; /* Cor de fundo do rodapé */
 }
-  
